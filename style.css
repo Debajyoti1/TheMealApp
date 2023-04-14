@@ -39,17 +39,19 @@ header h1{
     flex-wrap: wrap;
 }
 .card{
-    height: 300px;
-    width: 200px;
+    height: 350px;
+    width: 270px;
     overflow: hidden;
-    margin: 2rem;
+    margin: 1rem;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin-top: 2rem;
 }
 .card img{
-    height: 200px;
+    height: 240px;
     width: inherit;
     margin-bottom: 1rem;
 }

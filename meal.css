@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(148, 240, 240);
+}
+.card{
+    width: 70vw;
+    margin: auto;
+    background-color: beige;
+    padding: 5vw;
+}
+.desc{
+    font-size: 1.2rem;
+}
+.attr{
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-bottom: .5rem;
+}
+.attrdesc{
+    margin-top: .7rem;
+}
+.card img{
+    height: 40%;
+    width: 40%;
+    display: block;
+    margin: auto;
+}
+
+.ingredients{
+    margin-left: 4rem;
+    font-size: 1.2rem;
+}
