@@ -39,9 +39,12 @@ function displayMeals(meals) {
   meals.forEach(meal => {
     const card = document.createElement('div');
     card.classList.add('card');
-
+    let url
+    let pathName=window.location.pathname
+    if (pathName.endsWith('/')) url=window.location.href
+    else url=window.location.origin+'/'
     const anchor=document.createElement('a')
-    anchor.setAttribute('href',window.location.origin+'/meal.html?id='+meal.idMeal)
+    anchor.setAttribute('href',url+'meal.html?id='+meal.idMeal)
     anchor.setAttribute('target','_blank')
 
     const image = document.createElement('img');
