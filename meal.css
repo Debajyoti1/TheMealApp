@@ -1,36 +1,50 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-body{
-    background-color: rgb(148, 240, 240);
-}
-.card{
-    width: 70vw;
-    margin: auto;
-    background-color: beige;
-    padding: 5vw;
-}
-.desc{
-    font-size: 1.2rem;
-}
-.attr{
-    font-size: 1.5rem;
-    font-weight: 900;
-    margin-bottom: .5rem;
-}
-.attrdesc{
-    margin-top: .7rem;
-}
-.card img{
-    height: 40%;
-    width: 40%;
-    display: block;
-    margin: auto;
+/* Global CSS */
+* {
+    box-sizing: border-box; /* includes padding and border in the element's total width and height */
+    margin: 0; /* sets margin to 0 for all elements */
+    padding: 0; /* sets padding to 0 for all elements */
 }
 
-.ingredients{
-    margin-left: 4rem;
-    font-size: 1.2rem;
+/* Body */
+body {
+    background-color: rgb(148, 240, 240); /* sets background color of body to a light blue-green */
+}
+
+/* Card Component */
+.card {
+    width: 70vw; /* sets the width of the card to 70% of the viewport width */
+    margin: auto; /* centers the card horizontally */
+    background-color: beige; /* sets background color of the card to beige */
+    padding: 5vw; /* sets padding of the card to 5% of its width */
+}
+
+/* Card Description */
+.desc {
+    font-size: 1.2rem; /* sets font size of the card description to 1.2 rem */
+}
+
+/* Attribute Label */
+.attr {
+    font-size: 1.5rem; /* sets font size of the attribute label to 1.5 rem */
+    font-weight: 900; /* sets font weight of the attribute label to 900 */
+    margin-bottom: .5rem; /* sets margin bottom of the attribute label to 0.5 rem */
+}
+
+/* Attribute Description */
+.attrdesc {
+    margin-top: .7rem; /* sets margin top of the attribute description to 0.7 rem */
+}
+
+/* Card Image */
+.card img {
+    height: 40%; /* sets height of the card image to 40% of the parent container */
+    width: 40%; /* sets width of the card image to 40% of the parent container */
+    display: block; /* displays the card image as a block element */
+    margin: auto; /* centers the card image horizontally */
+}
+
+/* Ingredients List */
+.ingredients {
+    margin-left: 4rem; /* sets margin left of the ingredients list to 4 rem */
+    font-size: 1.2rem; /* sets font size of the ingredients list to 1.2 rem */
 }
